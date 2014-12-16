@@ -1,0 +1,1 @@
+module.exports = (...args) => args.reduce((a, b) => a + b, 0) / args.length
